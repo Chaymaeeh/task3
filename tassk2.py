@@ -20,7 +20,7 @@ st.markdown(
 )
 
 # load data
-data = pd.read_excel('cleaned data.xlsx')
+data = pd.read_csv('cleaned data.csv')
 
 
 # separate legitimate and fraudulent transactions

@@ -20,7 +20,8 @@ st.markdown(
 )
 
 # load data
-data = pd.read_excel("C:\\Users\\Chaymae\\Desktop\\cleaned data.xlsx")
+data = pd.read_excel('cleaned data.xlsx')
+
 
 # separate legitimate and fraudulent transactions
 normal = data[data.Class == 0]
